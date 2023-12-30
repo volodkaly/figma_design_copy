@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/flavicon.svg" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top-container">
+        <div class="header__top">
+          <img
+            class="header__logo"
+            src="./images/header_logo.svg"
+            alt="header_logo"
+          />
+          <div class="header__actions">
+            <a class="header__menu header__menu--mobile" href="#"></a>
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__list-item">
+                  <a class="header__link" href="#reproduction">Репродуции</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link" href="novelties">Новинки</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link" href="#about-us">О нас</a>
+                </li>
+              </ul>
+            </nav>
+            <a class="header__buy" href="#"> </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="header__bottom grid grid--desktop">
+          <img
+            class="header__image grid__item grid__item--desktop grid__item--desktop--1-6"
+            src="./images/header_bird.png"
+            alt="header_bird"
+          />
+
+          <div class="grid__item grid__item--desktop grid__item--desktop--7-12">
+            <h1 class="header__title">
+              Реплики картин от
+              <span class="header__title--green">Ink. House</span>
+            </h1>
+
+            <p class="header__text">
+              Высокое качество отрисовки на плотной бумаге или льняном холсте.
+              Редкие произведения, доступные цены.
+            </p>
+
+            <button class="header__button" href="#">Продукция</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="reproduction">
+        <div class="container">
+          <div class="reproduction__top">
+            <h3 class="reproduction__title">Репродукции</h3>
+            <nav class="reproduction__nav">
+              <button
+                class="reproduction__nav-button reproduction__nav-button--active"
+              >
+                Франция
+              </button>
+              <button class="reproduction__nav-button">Германия</button>
+              <button class="reproduction__nav-button">Англия</button>
+            </nav>
+          </div>
+
+          <div class="grid grid--desktop">
+            <div
+              class="reproduction__card grid__item grid__item--desktop grid__item--desktop--1-4"
+            >
+              <img
+                class="reproduction__card-image"
+                src="./images/pic1.svg"
+                alt="pic1"
+              />
+              <p class="reproduction__card-author">Марсель Руссо</p>
+              <h4 class="reproduction__card-name">Охота Амура</h4>
+              <p class="reproduction__card-materials">Холст, масло (50х80)</p>
+              <p class="reproduction__card-price">14 500 руб</p>
+              <button class="reproduction__card-btn">В корзину</button>
+            </div>
+
+            <div
+              class="reproduction__card grid__item grid__item--desktop grid__item--desktop--5-8"
+            >
+              <img
+                class="reproduction__card-image"
+                src="./images/pic2.svg"
+                alt="pic2"
+              />
+              <p class="reproduction__card-author">Анри Селин</p>
+              <h4 class="reproduction__card-name">Дама с собачкой</h4>
+              <p class="reproduction__card-materials">Акрил, бумага (50х80)</p>
+              <p class="reproduction__card-price">16 500 руб</p>
+              <button class="reproduction__card-btn">В корзину</button>
+            </div>
+
+            <div
+              class="reproduction__card grid__item grid__item--desktop grid__item--desktop--9-12"
+            >
+              <img
+                class="reproduction__card-image"
+                src="./images/pic3.svg"
+                alt="pic3"
+              />
+              <p class="reproduction__card-author">Франсуа Дюпон</p>
+              <h4 class="reproduction__card-name">Процедура</h4>
+              <p class="reproduction__card-materials">
+                Цветная литография (40х60)
+              </p>
+              <p class="reproduction__card-price">20 000 руб</p>
+              <button class="reproduction__card-btn">В корзину</button>
+            </div>
+
+            <div
+              class="reproduction__card grid__item grid__item--desktop grid__item--desktop--1-4"
+            >
+              <img
+                class="reproduction__card-image"
+                src="./images/pic4.svg"
+                alt="pic4"
+              />
+              <p class="reproduction__card-author">Луи Детуш</p>
+              <h4 class="reproduction__card-name">Роза</h4>
+              <p class="reproduction__card-materials">Бумага, акрил (50х80)</p>
+              <p class="reproduction__card-price">12 000 руб</p>
+              <button class="reproduction__card-btn">В корзину</button>
+            </div>
+
+            <div
+              class="reproduction__card grid__item grid__item--desktop grid__item--desktop--5-8"
+            >
+              <img
+                class="reproduction__card-image"
+                src="./images/pic5.svg"
+                alt="pic5"
+              />
+              <p class="reproduction__card-author">Франсуа Дюпон</p>
+              <h4 class="reproduction__card-name">Птичья трапеза</h4>
+              <p class="reproduction__card-materials">
+                Цветная литография (40х60)
+              </p>
+              <p class="reproduction__card-price">22 500 руб</p>
+              <button class="reproduction__card-btn">В корзину</button>
+            </div>
+
+            <div
+              class="reproduction__card grid__item grid__item--desktop grid__item--desktop--9-12"
+            >
+              <img
+                class="reproduction__card-image"
+                src="./images/pic6.svg"
+                alt="pic6"
+              />
+              <p class="reproduction__card-author">Пьер Моранж</p>
+              <h4 class="reproduction__card-name">Пейзаж с рыбой</h4>
+              <p class="reproduction__card-materials">
+                Цветная литография (40х60)
+              </p>
+              <p class="reproduction__card-price">20 000 руб</p>
+              <button class="reproduction__card-btn">В корзину</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="description">
+        <div class="container">
+          <div class="grid grid--desktop">
+            <div
+              class="grid__item grid__item--desktop grid__item--desktop--1-6"
+            >
+              <div class="description__top">
+                <img
+                  class="description__image"
+                  src="./images/star.png"
+                  alt="star"
+                />
+                <h4 class="description__title">
+                  Новая коллекция французских авторов
+                </h4>
+              </div>
+              <p class="description__text">
+                Сложно сказать, почему акционеры крупнейших компаний призывают
+                нас к новым свершениям, которые, в свою очередь, должны быть
+                заблокированы в рамках своих собственных рациональных
+                ограничений. <br /><br />
+                Принимая во внимание показатели успешности, граница обучения
+                кадров предопределяет высокую востребованность направлений
+                прогрессивного развития.
+              </p>
+            </div>
+            <div
+              class="grid__item grid__item--desktop grid__item--desktop--1-3"
+            >
+              <button class="description__btn">Ознакомиться</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="container">
+          <div class="grid grid--desktop team__grid">
+            <div class="grid__item grid__item--desktop--1-5">
+              <img
+                class="team__image"
+                src="./images/team_image.png"
+                alt="team_image"
+              />
+            </div>
+            <div class="grid__item grid__item--desktop--6-12">
+              <h3 class="team__title">Наша команда</h3>
+              <p class="team__text">
+                Значимость этих проблем настолько очевидна, что базовый вектор
+                развития позволяет оценить значение экспериментов, поражающих по
+                своей масштабности и грандиозности. Мы вынуждены отталкиваться
+                от того, что консультация с широким активом.
+              </p>
+              <div class="team__images">
+                <img src="./images/team_member1.svg" alt="member1" />
+                <img src="./images/team_member2.jpg" alt="member2" />
+                <img src="./images/team_member3.jpg" alt="member3" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <img src="./images/header_logo.svg" alt="logo.svg" />
+
+          <div class="footer__box">
+            <h4 class="footer__title footer__title--small">
+              +7 (999) 543-54-54
+            </h4>
+            <ul class="footer__list">
+              <li>Мастерская</li>
+            </ul>
+          </div>
+        </div>
+
+        <nav class="footer__nav">
+          <div class="footer__box">
+            <h4 class="footer__title footer__title--small">Репродукции</h4>
+            <ul class="footer__list">
+              <li>Франция</li>
+              <li>Германия</li>
+              <li>Англия</li>
+            </ul>
+          </div>
+
+          <div class="footer__box">
+            <h4 class="footer__title">Новинки</h4>
+            <ul class="footer__list">
+              <li>2021</li>
+              <li>2020</li>
+            </ul>
+          </div>
+
+          <div class="footer__box">
+            <h4 class="footer__title">О нас</h4>
+            <ul class="footer__list">
+              <li>Художники</li>
+              <li>Менеджеры</li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="footer__links">
+          <div class="footer__links-box">
+            <a href="#" class="footer__link footer__link--youtube"></a>
+            <a href="#" class="footer__link footer__link--instagram"></a>
+            <a href="#" class="footer__link footer__link--facebook"></a>
+          </div>
+          <p class="footer__links__text">
+            Ink. House ® All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
